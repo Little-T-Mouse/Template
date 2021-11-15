@@ -1,3 +1,4 @@
+#include <math.h> 
 bool isprime(int a){ // Check if number is prime
     if(a<2) return false;
     else if(a==2) return true;
