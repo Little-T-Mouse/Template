@@ -1,4 +1,4 @@
-int bfs_farest_node(int from){ // Find the farest node from a node
+int bfs_furthest_node(int from){ // Find the farest node from a node
     int level[N]; queue<int> que; bool vis[N];
     memset(vis, false, sizeof(vis)); que.push(start); memset(level, 0, sizeof(level)); int farest=-1;
     while(!que.empty()){
