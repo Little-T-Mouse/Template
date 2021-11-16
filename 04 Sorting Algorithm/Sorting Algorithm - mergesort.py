@@ -20,4 +20,4 @@ def mergesort(arr):
             arr[k] = right[j]
             j += 1; k += 1
     return arr
-  # Note: This is an Antt(Anthony-Sheu) Style merge-sort.
+  # Note: This merge-sort is written by Antt(Anthony-Sheu).
