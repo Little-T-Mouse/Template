@@ -1,3 +1,9 @@
+// build BIT in O(n) 
+for(int i=1; i<=n; i++) {
+	bit[i] += a[i];
+	int pa = i + (i&-i); 
+	if(pa <= n) bit[pa] += bit[i];
+
 // 1D BIT update:
 void update(int idx, int val) {
 	for(int i=idx; i < limit; i += i & -i ) {
