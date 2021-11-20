@@ -18,19 +18,19 @@ void update(int r, int c, int val ) {
 			bit[i][j] += val;
 }
 
-// 1D BIT query:
+// 1D BIT query sum:
 int query (int idx ) { 
 	int sum = 0;
-	for(int i = idx;   i > 0; i -= i & -i ) {
+	for(int i = idx; i > 0; i -= i & -i ) {
 		sum += bit[i];
 	}
 	return sum;
 }
 
-// 2D BIT query: // O(logn* logn) 
+// 2D BIT query sum: // O(logn* logn) 
 int query (int r, int c) { 
 	int sum = 0;
-	for(int i = r;   i > 0; i -= i & -i ) {
+	for(int i = r; i > 0; i -= i & -i ) {
 		for(int j=c; j>0; j -= j&-j){
 			sum += bit[i][j];
 		}
