@@ -1,0 +1,8 @@
+Problem 1: Given a tree with n nodes, you can start from any arbitrary node, go to visit every other node and finally return back to the start node. What's the min distance you need to travel? 
+ans = 2*E = 2*(n-1) 
+
+Problem 2: Given a tree with n nodes, you can start from a specific node (say node 1), go to visit every other node and finally don't return back to the start node. What's the min distance you need to travel? 
+ans = 2*E - longest dist from start node 
+
+Problem 3: Given a tree with n nodes, you can start from any arbitrary node, go to visit every node and finally don't return back to the start node. What's the min distance you need to travel? 
+ans = 2*E - diameter
