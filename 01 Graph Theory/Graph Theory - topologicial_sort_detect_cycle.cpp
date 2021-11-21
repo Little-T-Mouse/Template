@@ -1,5 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
+// Author: Little_Mouse
 // Direct Graph
 vector<vector<int>> graph;
 int* indegree; int N;
