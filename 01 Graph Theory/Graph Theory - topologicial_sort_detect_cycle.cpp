@@ -48,7 +48,7 @@ int main() {
         }
     }
     for(int i=0; i<N; i++){
-        cout << indegree[i] << endl;
+        cout << "Node " << i << " can be access from " << indegree[i] << " node(s)" << endl;
     }
     topologicial_sort();
     return 0;
