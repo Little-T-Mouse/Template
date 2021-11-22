@@ -12,4 +12,4 @@ ef cntEvenSum(arr, n):
 
 arr = [1, 2, 2, 3, 4, 1]
 n = len(arr)
-print("The Number of Subarrays with even sum is", countEvenSum(arr, n))
+print("The Number of Subarrays with even sum is", cntEvenSum(arr, n))
