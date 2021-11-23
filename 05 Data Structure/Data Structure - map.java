@@ -1,4 +1,4 @@
-// HashMap:  Key is not sorted
+// HashMap: Key is not sorted
 // TreeMap: Key is sorted 
 
 	public static void main(String[] args) throws IOException{
