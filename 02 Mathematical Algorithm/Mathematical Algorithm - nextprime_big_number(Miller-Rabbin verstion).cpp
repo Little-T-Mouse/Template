@@ -1,7 +1,6 @@
-#include <stdio.h>
-#include <math.h>
-#include <time.h>
-#include <stdlib.h>
+#include <bits/stdc++.h>
+using namespace std;
+
 #define false 0
 #define true 1
 typedef unsigned long long LL; int S=4;
