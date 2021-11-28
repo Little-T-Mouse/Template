@@ -6,3 +6,4 @@
 - 04 Sorting Algorithm
 - 05 Data Structure
 - 06 Dynamic Programming
+- 07 Searching Algorithm
