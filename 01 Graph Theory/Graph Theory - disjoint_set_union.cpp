@@ -1,4 +1,4 @@
-class mst{
+class dsu{
 public:
     int* parent;
     int* ranks;
