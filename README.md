@@ -7,3 +7,4 @@
 - 05 Data Structure
 - 06 Dynamic Programming
 - 07 Searching Algorithm
+- 08 Greedy Algorithm
