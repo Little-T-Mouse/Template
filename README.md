@@ -8,3 +8,4 @@
 - 06 Dynamic Programming
 - 07 Searching Algorithm
 - 08 Greedy Algorithm
+- 09 Console Game
