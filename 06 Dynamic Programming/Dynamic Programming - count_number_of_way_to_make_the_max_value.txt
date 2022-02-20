@@ -1,0 +1,9 @@
+Count the num of ways to make the max value 
+dp[i][j] : max value for first i items with cap j knapsack 
+cnt[i][j] : # of ways to get the max value from first i items and cap j knapsack 
+if dp[i][j] = dp[i-1][j]  and dp[i][j] != dp[i-1][j -w[i]] + v[i] 
+	cnt[i][j] ←  cnt[i-1][j] 
+if dp[i][j] != dp[i-1][j]  and dp[i][j] == dp[i-1][j -w[i]] + v[i] 
+	cnt[i][j] ←  cnt[i-1] [ j - w[i]] 
+if dp[i][j] == dp[i-1][j]  and dp[i][j] == dp[i-1][j -w[i]] + v[i] 
+	cnt[i][j] ← cnt[i-1][j] +  cnt[i-1] [ j - w[i]] 
